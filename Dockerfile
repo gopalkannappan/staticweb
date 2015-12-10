@@ -3,7 +3,7 @@ MAINTAINER Docker Education Team <education@docker.com>
 
 RUN apt-get update
 RUN apt-get install -y nginx
-RUN echo 'Hi, Gopal's first gitup container' \
+RUN echo 'Hi, Gopal first gitup container' \
     >/usr/share/nginx/html/index.html
 
 CMD [ "nginx", "-g", "daemon off;" ]
